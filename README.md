@@ -1,0 +1,3 @@
+We have an SMS class, which holds time stamp and message details. Then there is a Receiver class which has array of SMS. so whenever you create an object of Receiver Class, it would have it own array of SMS. 
+In the Messenger Class, array of Receievers. In this class we have FKing FUNCTIONAL functions, such as: addReceiver (add receiver object to yo Array), sendMessage (to send a message to particular Receiver thru its 
+unqiue ID) and then CHERRY ON TOP functions i.e search, delete bla bla ......
